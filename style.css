@@ -1,0 +1,46 @@
+:root {
+    --primary-color: rgb(61, 56, 56);
+    --secondary-color: white;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+div > a {
+    text-decoration: none;
+}
+
+.container-fluid {
+    background-color: var(--primary-color);
+    overflow: hidden;
+    height: 100vh;
+    /* border: 5px solid red; */
+}
+
+.navbar, .navbar > a{
+    /* border: 3px solid black; */
+    color: var(--secondary-color);
+}
+
+.navbar-logo {
+    /* border: 2px solid blue; */
+    font-size: 30px;
+    text-align: center;
+}
+
+.navbar-link1 {
+    /* border: 2px solid green; */
+    font-size: 20px;
+}
+
+.navbar-link2 {
+    /* border: 2px solid green; */
+    font-size: 20px;
+}
+
+.navbar-link3 {
+    /* border: 2px solid green; */
+    font-size: 20px;
+}
